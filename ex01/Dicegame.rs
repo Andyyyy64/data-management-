@@ -2,6 +2,12 @@ use rand::Rng;
 use std::io;
 
 fn main() {
+
+    println!("What is your name?");
+    let mut name = String::new();
+
+    println!("Hello, {}!", name);
+    
     let mut rng = rand::thread_rng();
 
     println!("Rolling dice...");
