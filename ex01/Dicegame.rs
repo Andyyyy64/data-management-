@@ -14,4 +14,9 @@ fn main() {
 
     let total_value = die1 + die2;
     println!("Total value: {}", total_value);
+    if(total_value > 7) {
+        println!("You win!");
+    } else {
+        println!("You lost!");
+    }
 }
